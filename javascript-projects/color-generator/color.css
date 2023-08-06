@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap');
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 30px 50px 30px;
+  background-color: #FBFBF2;
+  border-radius: 5%;
+}
+
+h1 {
+  font-family: 'Oswald', Arial;
+  font-weight: 700;
+  font-size: 40px;
+  text-decoration: underline black 5px;
+}
+
+p {
+  font-family: 'Ubuntu', Arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.color-button {
+  border: none;
+  font-family: 'Ysabeau SC', Arial;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  padding: 20px 20px;
+  background-color: #847577;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.color-button:hover{
+  background-color: #655a5b;
+}
+
+.color-button:active{
+  background-color: #655a5b5e;
+}
+
+.attribution {
+  margin-top: 50px;
+  font-family: 'Ubuntu', Arial;
+}
+
+
